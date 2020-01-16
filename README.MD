@@ -1,8 +1,5 @@
-Intro
------
+#Sample Website
 
-### Learn Enough HTML To Be Dangerous Tutorial ###
-1. Create Directory
-2. Create Git repo
-3. Serve using GitHub Pages
-4. Create README.MD, add and commit
+This is a sample website from [*Learn Enough HTML To Be Dangerous*](https://www.learnenough.com/).
+
+You can view me on my [*GitHub Page*](https://taylrd.github.io/sample_website/)
