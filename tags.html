@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Tags</title>
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-
-    <div>
+    <div id="main-nav" class="nav-menu">
       <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+      <a href="tags.html" class="nav-spacing">HTML Tags</a>
+      <a href="moby_dick.html" class="nav-spacing">Moby Dick</a>
     </div>
 
     <h1>Important HTML tags</h1>
@@ -193,5 +193,47 @@
       </tr>
     </table>
 
+    <h2>Document Tags</h2>
+    <table>
+      <tr>
+        <td><code>html</code></td>
+        <td>Hyper<br>Text<br>Markup<br>Language</td>
+        <td>specifies HTML doc</td>
+        <td><code><html lang="en"><br></html></code></td>
+        <td>result unviewable</d>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td>header <br>container</td>
+        <td>contains doc data</td>
+        <td><code><head>
+              <br><title>
+              <br><meta charset="utf-8">
+              <br></title>
+              <br></head>
+            </code>
+        </td>
+        <td>result unviewable</td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>body</td>
+        <td>contains doc content</td>
+        <td><code><body>
+          <br><p>Sup?</p>
+          <br></body></code>
+        </td>
+        <td><body><p>Sup?</p></body></td>
+      </tr>
+      <tr>
+          <td><code>meta</code></td>
+          <td>metadata</td>
+          <td>doc data element</td>
+          <td>
+            <code><meta charset="utf-8"></code>
+          </td>
+          <td>result unviewable</td>
+      </tr>
+    </table>
   </body>
 </html>
